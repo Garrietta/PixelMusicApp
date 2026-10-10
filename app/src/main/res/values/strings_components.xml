@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="widget_tap_to_open">Tap to open</string>
     <string name="widget_album_art">Album art</string>
     <string name="widget_album_art_placeholder">Album art placeholder</string>
@@ -160,4 +160,51 @@
     <string name="cd_drag_handle">Drag handle</string>
     <string name="cd_reset">Reset</string>
     <string name="action_done">Done</string>
+
+    <string name="cd_add_selected_albums_to_queue">Add selected albums to queue</string>
+    <string name="cd_album_art_of">Album art of %1$s</string>
+    <string name="cd_album_art_placeholder">%1$s placeholder</string>
+    <string name="cd_choose_song_tone">Choose how to use this song as a system sound</string>
+    <string name="cd_cover_art">Cover art</string>
+    <string name="cd_play_selected_albums">Play selected albums</string>
+    <string name="cd_play_selected_albums_next">Play selected albums next</string>
+    <string name="cd_show_controls">Show controls</string>
+    <string name="edit_song_add_custom_field" tools:ignore="MissingTranslation">Add metadata field</string>
+    <string name="edit_song_custom_field_name" tools:ignore="MissingTranslation">Field name</string>
+    <string name="edit_song_custom_field_value" tools:ignore="MissingTranslation">Value</string>
+    <string name="edit_song_custom_metadata_description" tools:ignore="MissingTranslation">Set a 0–5 rating or add text fields such as MOOD, COMMENT, YEAR, or BPM.</string>
+    <string name="edit_song_custom_metadata_formats" tools:ignore="MissingTranslation">Rating and custom fields can be written to MP3, WAV, AIFF, FLAC, OGG, Opus, M4A, M4B, and MP4 files.</string>
+    <string name="edit_song_custom_metadata_heading" tools:ignore="MissingTranslation">Optional metadata</string>
+    <string name="edit_song_custom_metadata_invalid" tools:ignore="MissingTranslation">Check the optional metadata fields.</string>
+    <string name="edit_song_rating" tools:ignore="MissingTranslation">Rating (0–5)</string>
+    <string name="edit_song_rating_not_set" tools:ignore="MissingTranslation">Not set</string>
+    <string name="edit_song_remove_custom_field" tools:ignore="MissingTranslation">Remove field</string>
+    <string name="equalizer_action_save_new">Save New</string>
+    <string name="folder_state_excluded">Excluded</string>
+    <string name="folder_state_included">Included</string>
+    <string name="playlist_created_songs_added_toast">Playlist created and songs added</string>
+    <string name="playlist_saved_toast">Saved</string>
+    <string name="playlist_songs_added_toast">Songs added to playlists</string>
+    <string name="song_info_choose_tone">Set as sound</string>
+    <string name="song_info_ringtone_failed">Couldn\'t set ringtone: %1$s</string>
+    <string name="song_info_ringtone_local_only">Only local songs can be used as ringtones.</string>
+    <string name="song_info_ringtone_missing_file">Couldn\'t prepare this audio file for ringtone.</string>
+    <string name="song_info_ringtone_permission_missing">Modify system settings was not enabled.</string>
+    <string name="song_info_ringtone_permission_prompt">Enable Modify system settings, then return to PixelMusic to finish automatically.</string>
+    <string name="song_info_set_as_short">Set as</string>
+    <string name="song_info_tone_alarm_label">alarm sound</string>
+    <string name="song_info_tone_alarm_subtitle">Clock alarms</string>
+    <string name="song_info_tone_alarm_title">Alarm sound</string>
+    <string name="song_info_tone_confirm_action">Set sound</string>
+    <string name="song_info_tone_confirm_body">Set \"%1$s\" as your %2$s?</string>
+    <string name="song_info_tone_confirm_title">Confirm sound change</string>
+    <string name="song_info_tone_notification_label">notification sound</string>
+    <string name="song_info_tone_notification_subtitle">Messages and app alerts</string>
+    <string name="song_info_tone_notification_title">Notification sound</string>
+    <string name="song_info_tone_picker_body">Choose where PixelMusic should install this sound.</string>
+    <string name="song_info_tone_picker_title">Use this song as</string>
+    <string name="song_info_tone_ringtone_label">ringtone</string>
+    <string name="song_info_tone_ringtone_subtitle">Incoming calls</string>
+    <string name="song_info_tone_ringtone_title">Phone ringtone</string>
+    <string name="song_info_tone_success">Set \"%1$s\" as your %2$s</string>
 </resources>

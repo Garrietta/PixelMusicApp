@@ -94,4 +94,6 @@
         <item quantity="one">%1$d song • %2$s</item>
         <item quantity="other">%1$d songs • %2$s</item>
     </plurals>
+
+    <string name="presentation_batch_b_playlist_empty_smart_body">No songs match this smart rule yet.</string>
 </resources>

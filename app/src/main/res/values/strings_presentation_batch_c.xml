@@ -101,4 +101,11 @@
     <string name="lib_empty_folders_subtitle">Internal storage folders with music will appear here.</string>
     <string name="lib_empty_playlists_title">No playlists yet</string>
     <string name="lib_empty_playlists_subtitle">Create your first playlist to organize your library.</string>
+
+    <string name="library_tab_albums">Albums</string>
+    <string name="library_tab_artists">Artists</string>
+    <string name="library_tab_folders">Folders</string>
+    <string name="library_tab_liked">Liked</string>
+    <string name="library_tab_playlists">Playlists</string>
+    <string name="library_tab_songs">Songs</string>
 </resources>

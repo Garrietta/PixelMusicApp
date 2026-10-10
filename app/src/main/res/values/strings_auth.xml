@@ -71,4 +71,11 @@
     <string name="auth_error_no_cookies">No cookies found. Log in first.</string>
     <string name="auth_error_netease_login_incomplete">Login not detected yet. Complete NetEase login before pressing Done.</string>
     <string name="auth_error_qq_login_incomplete">Login not detected yet. Complete QQ Music login before pressing Done.</string>
+
+    <string name="auth_local_network_permission_denied">Allow nearby devices access to connect to a server on your local network.</string>
+    <string name="auth_navidrome_server_placeholder">http://192.168.1.100:4533</string>
+    <string name="auth_select_libraries_confirm">Save and sync</string>
+    <string name="auth_select_libraries_subtitle">This server has more than one music library. Pick which ones to sync — you can change this later from the server dashboard.</string>
+    <string name="auth_select_libraries_title">Choose libraries to sync</string>
+    <string name="auth_use_http">Use HTTP / VPN</string>
 </resources>
