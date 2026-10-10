@@ -32,6 +32,7 @@ import com.unshoo.pixelmusic.data.database.MIGRATION_5_6
 import com.unshoo.pixelmusic.data.database.MIGRATION_6_7
 import com.unshoo.pixelmusic.data.database.MusicDao
 import com.unshoo.pixelmusic.data.database.OfflineTrackDao
+import com.unshoo.pixelmusic.data.database.PodcastDao
 import com.unshoo.pixelmusic.data.database.PixelPlayerDatabase
 import com.unshoo.pixelmusic.data.database.SearchHistoryDao
 import com.unshoo.pixelmusic.data.database.TransitionDao
@@ -227,6 +228,12 @@ object AppModule {
     @Provides
     fun provideOfflineTrackDao(database: PixelPlayerDatabase): OfflineTrackDao {
         return database.offlineTrackDao()
+    }
+
+    @Singleton
+    @Provides
+    fun providePodcastDao(database: PixelPlayerDatabase): PodcastDao {
+        return database.podcastDao()
     }
 
     @Provides
