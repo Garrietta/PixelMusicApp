@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Main settings screen -->
     <string name="settings_top_bar_title">Settings</string>
     <string name="settings_accounts_row_title">Accounts</string>
@@ -427,4 +427,55 @@
     <string name="setcat_playback_client_desc">Select stream client. Android VR is faster; Web Client uses YouTube Music.</string>
     <string name="setcat_playback_client_android_vr">Android VR (Default)</string>
     <string name="setcat_playback_client_web_remix">Web Client</string>
+
+    <string name="backup_encrypt_subtitle">Protect the file with a password (AES-256). You\'ll need it to restore.</string>
+    <string name="backup_encrypt_title">Encrypt backup</string>
+    <string name="backup_encrypted_prompt_body">This backup is protected with a password. Enter it to continue.</string>
+    <string name="backup_encrypted_prompt_title">Encrypted backup</string>
+    <string name="backup_password_confirm_hint">Confirm password</string>
+    <string name="backup_password_hint">Backup password</string>
+    <string name="backup_password_mismatch">Passwords don\'t match.</string>
+    <string name="backup_password_too_short">Use at least 4 characters.</string>
+    <string name="backup_unlock">Unlock</string>
+    <string name="backup_wrong_password">Incorrect password. Try again.</string>
+    <string name="language_zh_rCN" translatable="false">简体中文</string>
+    <string name="setcat_about_pixelplayer_subtitle">App version, credits, and more.</string>
+    <string name="setcat_about_pixelplayer_title">About PixelMusic</string>
+    <string name="setcat_app_language_desc">Choose the language used across the app interface.</string>
+    <string name="setcat_app_language_label">App Language</string>
+    <string name="setcat_audio_output_mode_description">Choose how decoded PCM is sent to Android. Changing mode briefly restarts the audio output.</string>
+    <string name="setcat_audio_output_mode_direct">Direct output (experimental)</string>
+    <string name="setcat_audio_output_mode_direct_description">Attempts to use the same sample rate as the audio on most devices to avoid unnecessary resampling.</string>
+    <string name="setcat_audio_output_mode_pcm_float">32-bit float PCM</string>
+    <string name="setcat_audio_output_mode_pcm_float_description">More processing headroom for high-resolution PCM. Android may still resample it; this is not bit-perfect.</string>
+    <string name="setcat_audio_output_mode_pcm_float_unsupported">Unavailable because this device could not initialize a PCM_FLOAT AudioTrack.</string>
+    <string name="setcat_audio_output_mode_system_default">System default</string>
+    <string name="setcat_audio_output_mode_system_default_description">Best compatibility. Android may mix or resample audio.</string>
+    <string name="setcat_audio_output_mode_title">Audio output mode</string>
+    <string name="setcat_external_artist_images_subtitle">Allow missing artist images to be fetched from Deezer and cached locally.</string>
+    <string name="setcat_external_artist_images_title">Artist artwork from Deezer</string>
+    <string name="setcat_external_lyrics_subtitle">Allow searches and manual fetches from lrclib.net when lyrics are missing locally.</string>
+    <string name="setcat_external_lyrics_title">Online lyrics from LRCLIB</string>
+    <string name="setcat_global_now_playing_theme_subtitle" tools:ignore="MissingTranslation">Colors the whole app from the current song\'s album art. Light and dark mode are still respected.</string>
+    <string name="setcat_global_now_playing_theme_title" tools:ignore="MissingTranslation">Use now playing colors across the app</string>
+    <string name="setcat_keep_screen_awake_subtitle" tools:ignore="MissingTranslation">Prevents the screen from sleeping while music is actively playing and the app is visible.</string>
+    <string name="setcat_keep_screen_awake_title" tools:ignore="MissingTranslation">Keep screen awake while playing</string>
+    <string name="setcat_language_arabic" translatable="false">العربية</string>
+    <string name="setcat_language_norwegian_bokmal" translatable="false">Norsk bokmål</string>
+    <string name="setcat_language_turkish" translatable="false">Türkçe</string>
+    <string name="setcat_m3u_sync_disabled_subtitle" tools:ignore="MissingTranslation">Choose an external folder to keep local playlists in sync both ways</string>
+    <string name="setcat_m3u_sync_enabled_subtitle" tools:ignore="MissingTranslation">Synchronizing with %1$s</string>
+    <string name="setcat_m3u_sync_now_subtitle" tools:ignore="MissingTranslation">Import and export changes without overwriting conflicts</string>
+    <string name="setcat_m3u_sync_now_title" tools:ignore="MissingTranslation">Sync playlists now</string>
+    <string name="setcat_m3u_sync_result" tools:ignore="MissingTranslation">%1$d changed · %2$d conflicts · %3$d unresolved entries</string>
+    <string name="setcat_m3u_sync_section" tools:ignore="MissingTranslation">Playlist synchronization</string>
+    <string name="setcat_m3u_sync_selected_folder" tools:ignore="MissingTranslation">selected folder</string>
+    <string name="setcat_m3u_sync_title" tools:ignore="MissingTranslation">Automatic M3U sync</string>
+    <string name="setcat_online_services">Optional online services</string>
+    <string name="setcat_smart_crossfade_subtitle">Match the crossfade length to the songs\' tempo when their BPM tags are compatible.</string>
+    <string name="setcat_smart_crossfade_title">Smart crossfade</string>
+    <string name="settings_search_hint">Search settings</string>
+    <string name="settings_search_no_results">No results for \"%1$s\"</string>
+    <string name="settings_search_section_related">Related settings</string>
+    <string name="settings_search_section_top_matches">Top matches</string>
 </resources>
