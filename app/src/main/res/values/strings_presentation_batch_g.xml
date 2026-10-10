@@ -594,4 +594,51 @@ Backslash (\) can be used to escape character delimiters.</string>
         <item>Resolved background playback and notification issues.</item>
         <item>General bug fixes and UI polish.</item>
     </string-array>
+
+    <string name="device_capabilities_advanced_diagnostics_description">Off by default. Records a short lag timeline for beta troubleshooting.</string>
+    <string name="device_capabilities_advanced_diagnostics_expires">Active until %1$s</string>
+    <string name="device_capabilities_advanced_diagnostics_mark_lag">Mark lag now</string>
+    <string name="device_capabilities_advanced_diagnostics_marked">Lag moment marked</string>
+    <string name="device_capabilities_advanced_diagnostics_title">Advanced performance diagnostics</string>
+    <string name="device_capabilities_report_copied">Report copied to clipboard</string>
+    <string name="device_capabilities_report_copy">Copy</string>
+    <string name="device_capabilities_report_description">Generate a shareable diagnostic report to help us classify playback or scan lag. It contains only device, library, and timing data — no file paths, titles, or artists.</string>
+    <string name="device_capabilities_report_generate">Generate report</string>
+    <string name="device_capabilities_report_regenerate">Regenerate</string>
+    <string name="device_capabilities_report_share">Share</string>
+    <string name="device_capabilities_report_share_title">PixelPlayer performance report</string>
+    <string name="device_capabilities_report_title">Performance report</string>
+    <string name="presentation_batch_g_beta_sheet_welcome_body_stable">You\'re running the stable release build. Check the changelog to see what\'s new, and report anything that misbehaves.</string>
+    <string name="presentation_batch_g_changelog_sec_initial_release">Initial release</string>
+    <string name="presentation_batch_g_changelog_sec_release_readiness">Release readiness</string>
+    <string name="presentation_batch_g_changelog_sec_removed_for_foss">Removed for FOSS</string>
+    <string name="presentation_batch_g_changelog_sec_security_privacy">Security and privacy</string>
+    <string name="presentation_batch_g_changelog_sec_under_the_hood">Under the hood</string>
+    <string name="presentation_batch_g_topbar_build_debug">Debug</string>
+    <string name="presentation_batch_g_topbar_build_stable">Stable</string>
+    <string-array name="presentation_batch_g_changelog_070_added">
+        <item>Loopback cloud streaming now requires a per-session token.</item>
+        <item>Backup restore ignores preference keys owned by dedicated module handlers.</item>
+        <item>Release logging is tightened so HTTP request headers and raw Android logs do not bypass the Timber release filter.</item>
+        <item>Also includes smart playlist persistence, duplicate-track scanning, playback speed control, clearer playback/sync failure messages, and improved accessibility.</item>
+    </string-array>
+    <string-array name="presentation_batch_g_changelog_070_whats_new">
+        <item>First public FOSS release of PixelMusic.</item>
+        <item>Includes local playback, playlists, favorites, lyrics, listening stats, dynamic Material 3 theming, widgets, and backup/restore.</item>
+        <item>Keeps self-hosted Navidrome/Subsonic and Jellyfin support, plus optional LRCLIB lyrics and Deezer artist artwork lookup.</item>
+    </string-array>
+    <string-array name="presentation_batch_g_changelog_v020_improvements">
+        <item>Smaller app: leaner code-shrinking rules trim about 1.5 MB off the install size.</item>
+        <item>Faster, smoother startup: Baseline Profiles were regenerated from scratch to match the new UI and code paths.</item>
+        <item>Snappier lists, sheets, and the equalizer thanks to a wide Compose performance pass.</item>
+    </string-array>
+    <string-array name="presentation_batch_g_changelog_v020_under_the_hood">
+        <item>More reliable cloud playback: cancelled Navidrome/Jellyfin requests are no longer misreported as network errors when skipping tracks quickly.</item>
+        <item>Backup, restore, and setup events can no longer be lost during screen rotation.</item>
+        <item>Spring cleaning: dead code removed, deprecated APIs migrated, and dependencies updated.</item>
+    </string-array>
+    <string-array name="presentation_batch_g_changelog_v020_whats_new">
+        <item>Material 3 Expressive design pass: a new motion scheme, wavy progress indicators, and shape-morphing animations throughout the app.</item>
+        <item>Jellyfin servers over plain HTTP are now allowed for VPN and local-network hosts.</item>
+    </string-array>
 </resources>
