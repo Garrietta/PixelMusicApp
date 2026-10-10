@@ -294,4 +294,40 @@
     <string name="batch_edit_failed">Could not update songs</string>
     <string name="batch_edit_partial_success">Updated %1$d of %2$d songs. Some files could not be edited.</string>
     <string name="batch_edit_success">Successfully updated %d songs</string>
+
+    <string-array name="presentation_batch_g_changelog_v020_whats_new">
+        <item>Chromecast support for casting audio from your device.</item>
+        <item>In-app changelog to keep you updated on the latest features.</item>
+        <item>Support for .LRC files, both embedded and external.</item>
+        <item>Offline lyrics support.</item>
+        <item>Synchronized lyrics (synced with the song).</item>
+        <item>New screen to view the full queue.</item>
+        <item>Reorder and remove songs from the queue.</item>
+        <item>Mini-player gestures (swipe down to close).</item>
+    </string-array>
+    <string-array name="presentation_batch_g_changelog_v020_improvements">
+        <item>Complete redesign of the user interface.</item>
+        <item>Complete redesign of the player.</item>
+        <item>Performance improvements in the library.</item>
+        <item>Improved application startup speed.</item>
+        <item>The AI now provides better results.</item>
+    </string-array>
+    <string-array name="presentation_batch_g_changelog_v020_under_the_hood">
+        <item>Fixed various bugs in the tag editor.</item>
+        <item>Fixed a bug where the playback notification was not clearing.</item>
+        <item>Fixed several bugs that caused the app to crash.</item>
+        <item>New settings to clear the cache.</item>
+    </string-array>
+    <string-array name="presentation_batch_g_changelog_070_whats_new">
+        <item>AI integration improvements and smarter playlist generation.</item>
+        <item>Enhanced listening stats with deeper insights and new visualizations.</item>
+        <item>Improved library sync flow across all cloud providers.</item>
+        <item>Better metadata editing with cover art support.</item>
+    </string-array>
+    <string-array name="presentation_batch_g_changelog_070_added">
+        <item>Performance improvements across startup, library, queue, and player interactions.</item>
+        <item>Refined Material 3 UI for a cleaner and more cohesive experience.</item>
+        <item>Smoother animations and transitions throughout the app.</item>
+        <item>Better search relevance and faster discovery.</item>
+    </string-array>
 </resources>
