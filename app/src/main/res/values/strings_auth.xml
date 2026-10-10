@@ -71,4 +71,5 @@
     <string name="auth_error_no_cookies">No cookies found. Log in first.</string>
     <string name="auth_error_netease_login_incomplete">Login not detected yet. Complete NetEase login before pressing Done.</string>
     <string name="auth_error_qq_login_incomplete">Login not detected yet. Complete QQ Music login before pressing Done.</string>
+    <string name="auth_navidrome_server_placeholder">https://music.example.com</string>
 </resources>

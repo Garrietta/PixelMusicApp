@@ -160,4 +160,24 @@
     <string name="cd_drag_handle">Drag handle</string>
     <string name="cd_reset">Reset</string>
     <string name="action_done">Done</string>
+
+    <!-- Song information and tone actions -->
+    <string name="musicbrainz_search_failed_fallback">MusicBrainz search failed</string>
+    <string name="musicbrainz_save_failed_fallback">Could not save MusicBrainz changes</string>
+    <string name="song_info_ringtone_failed">Could not set ringtone: %1$s</string>
+    <string name="song_info_ringtone_local_only">Only local songs can be used as ringtones.</string>
+    <string name="song_info_ringtone_missing_file">This audio file could not be prepared as a ringtone.</string>
+    <string name="song_info_ringtone_permission_prompt">Allow PixelPlayer to modify system settings to set a tone.</string>
+    <string name="song_info_tone_alarm_label">alarm tone</string>
+    <string name="song_info_tone_notification_label">notification tone</string>
+    <string name="song_info_tone_ringtone_label">ringtone</string>
+    <string name="song_info_tone_success">Set \"%1$s\" as your %2$s</string>
+    <string name="musicbrainz_applied">MusicBrainz changes applied</string>
+    <string name="musicbrainz_lookup">Search MusicBrainz</string>
+    <string name="musicbrainz_searching">Searching MusicBrainz…</string>
+    <string name="musicbrainz_lookup_failed">MusicBrainz lookup failed</string>
+    <string name="musicbrainz_choose_match">Choose a MusicBrainz match</string>
+    <string name="musicbrainz_no_results">No MusicBrainz matches found.</string>
+    <string name="musicbrainz_match_score">Match score: %1$d%%</string>
+    <string name="song_info_tone_picker_body">Choose whether to set this song as your ringtone, notification sound, or alarm sound.</string>
 </resources>

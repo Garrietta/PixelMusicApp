@@ -482,4 +482,7 @@
     <string name="toast_download_cancelled">Download cancelled</string>
     <string name="toast_download_started">Download started</string>
     <string name="toast_removed_dislike">Removed dislike</string>
+    <string name="about_link_source_subtitle">Browse the source code and contribute on GitHub.</string>
+    <string name="about_support_title">Support PixelPlayer</string>
+    <string name="setup_external_services_subtitle">Connect optional online services to enhance your music experience.</string>
 </resources>

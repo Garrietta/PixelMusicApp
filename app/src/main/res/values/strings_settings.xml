@@ -427,4 +427,37 @@
     <string name="setcat_playback_client_desc">Select stream client. Android VR is faster; Web Client uses YouTube Music.</string>
     <string name="setcat_playback_client_android_vr">Android VR (Default)</string>
     <string name="setcat_playback_client_web_remix">Web Client</string>
+
+    <!-- Settings search and recently added settings -->
+    <string name="setcat_m3u_sync_title">Automatic M3U sync</string>
+    <string name="setcat_m3u_sync_disabled_subtitle">Choose an external folder to sync local playlists in both directions</string>
+    <string name="setcat_m3u_sync_now_title">Sync playlists now</string>
+    <string name="setcat_m3u_sync_now_subtitle">Import and export changes without overwriting conflicts</string>
+    <string name="setcat_find_duplicates_title">Find duplicate tracks</string>
+    <string name="setcat_find_duplicates_subtitle">Scan your library for tracks that appear more than once.</string>
+    <string name="setcat_external_lyrics_title">Online lyrics from LRCLIB</string>
+    <string name="setcat_external_lyrics_subtitle">Allow searching and manually fetching lyrics from lrclib.net when they are not available locally.</string>
+    <string name="setcat_external_artist_images_title">Artist images from Deezer</string>
+    <string name="setcat_external_artist_images_subtitle">Allow missing artist images to be fetched from Deezer and cached locally.</string>
+    <string name="accounts_listenbrainz_title">ListenBrainz</string>
+    <string name="setcat_app_language_label">App Language</string>
+    <string name="setcat_app_language_desc">Choose the language used across the app interface.</string>
+    <string name="setcat_global_now_playing_theme_title">Use the current track colors throughout the app</string>
+    <string name="setcat_global_now_playing_theme_subtitle">Tint the app using the current track’s album art while preserving light and dark mode.</string>
+    <string name="setcat_keep_screen_awake_title">Keep screen on during playback</string>
+    <string name="setcat_keep_screen_awake_subtitle">Prevent the screen from sleeping while music is playing and the app is visible.</string>
+    <string name="setcat_smart_crossfade_title">Smart crossfade</string>
+    <string name="setcat_smart_crossfade_subtitle">Match crossfade duration to song tempos when their BPM tags are compatible.</string>
+    <string name="setcat_playback_speed">Playback speed</string>
+    <string name="setcat_audio_output_mode_title">Audio output mode</string>
+    <string name="setcat_audio_output_mode_description">Choose how decoded PCM audio is sent to Android. Changing modes briefly restarts audio output.</string>
+    <string name="device_capabilities_advanced_diagnostics_title">Advanced performance diagnostics</string>
+    <string name="device_capabilities_advanced_diagnostics_description">Off by default. Records a short stutter timeline to help troubleshoot beta issues.</string>
+    <string name="setcat_about_pixelplayer_title">About PixelPlayer</string>
+    <string name="setcat_about_pixelplayer_subtitle">App version, credits, contributors, and more.</string>
+    <string name="settings_search_no_results">No results for \"%1$s\"</string>
+    <string name="setcat_language_arabic">العربية</string>
+    <string name="setcat_language_norwegian_bokmal">Norwegian Bokmål</string>
+    <string name="setcat_language_turkish">Türkçe</string>
+    <string name="language_zh_rCN">简体中文</string>
 </resources>

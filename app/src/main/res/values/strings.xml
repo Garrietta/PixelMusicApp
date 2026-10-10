@@ -282,4 +282,16 @@
     <string name="cloud_download_play_all">Play all</string>
     <string name="cloud_download_shuffle_all">Shuffle all</string>
     <string name="in_your_library">In your library</string>
+
+    <!-- Player and batch-edit feedback -->
+    <string name="player_albums_added_to_queue_format">Added %1$d albums to the queue</string>
+    <string name="player_albums_will_play_next_format">%1$d albums will play next</string>
+    <string name="player_could_not_add_albums_next">Could not set the selected albums to play next</string>
+    <string name="player_could_not_add_albums_queue">Could not add the selected albums to the queue</string>
+    <string name="player_error_skipping">Could not play this track; skipping</string>
+    <string name="player_only_first_n_albums_added_queue">Only the first %1$d albums were added to the queue</string>
+    <string name="player_only_first_n_albums_next">Only the first %1$d albums were set to play next</string>
+    <string name="batch_edit_failed">Could not update songs</string>
+    <string name="batch_edit_partial_success">Updated %1$d of %2$d songs. Some files could not be edited.</string>
+    <string name="batch_edit_success">Successfully updated %d songs</string>
 </resources>
